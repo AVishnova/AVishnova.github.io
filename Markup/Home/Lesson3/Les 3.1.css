@@ -1,4 +1,64 @@
 h1{
     text-align: right;
+    color:orange;
+}
+p:first-letter
+{
+    color: red;
+    font-size: 30px;
+}
+em
+{
+    background-color: green;
+}
+ul li
+{
+    font-weight: bold
+}
+ul li ol li
+{
+    font-weight: normal;
+}
+#allotment h2
+{
+    color: orange;
+}
+#allotment ul ol[class="fruits-list"]
+{
+    color: gray;
 }
 
+#allotment ul ol[class="vegetables-list"]
+{
+    color: red;
+}
+#warehouse h2
+{
+    color: blue;
+}
+#warehouse ul ol[class="fruits-list"]
+{
+    color: green;
+}
+
+#warehouse ul ol[class="vegetables-list"]
+{
+    color: red;
+}
+.students-table thead tr
+{
+    font-weight: bold;
+    text-align: center;
+}
+.students-table tbody tr
+{
+    font-weight: bold;
+    background-color: green;
+    text-align: center;
+}
+.students-table tbody tr td:nth-child(1)
+{
+    color: orange;
+    background-color: white;
+    text-align: left;
+}
