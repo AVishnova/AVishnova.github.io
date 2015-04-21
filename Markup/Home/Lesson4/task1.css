@@ -33,3 +33,8 @@ a
     font-family:impact;
     color: white;
 }
+a:hover {
+    color: #A0A0A2;
+    background-color: #EEEEEE;
+    box-shadow: 0 2px 1px 0 #E2E2E2;
+}
